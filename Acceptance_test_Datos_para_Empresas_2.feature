@@ -1,4 +1,4 @@
-Feature: Visualizar los consumos de la empresa
+Feature: Filtrar los datos de consumos de la empresa
 Como encargado de una empresa quiero poder visualizar la información que deseo acceder de manera ordenada según el tipo de información que se trate 
 para así poder informarme de una manera más fácil de los datos esenciales. 
 Given el encargado de una empresa se encuentre en la pantalla de consumos 
