@@ -6,7 +6,7 @@ Feature: Visualización del consumo energético del usuario
 Scenario: Entrar a la página de consumo energético 
 
 Dado que el ciudadano se encuentre en el menú despegable
-Cuando Cuando presione <nav_consumo>
+Cuando presione <nav_consumo>
 Entonces Entonces será dirigido a la <seccion_consumo> de la plataforma 
 
 Examples: datos de entrada
