@@ -7,7 +7,7 @@ Scenario: Activar el dispositivo desde ajustes.
 
 Dado que el ciudadano este dentro de Watiffy con su sesión iniciada 
 Y su dispositivo de recolección de datos este apagado,  
-Cuando este active el dispositivo al presionar el <boton_estado_dispositivo> al costado de “dispositivo” en la pestaña de dispositivo de ajustes   
+Cuando este active el dispositivo al presionar el <boton_estado_dispositivo> al costado de “dispositivo” en la pestaña de ajustes   
 Entonces el estado del dispositivo cambiara a <estado_activado> resumiendo la recolección de datos 
 Y volviendose a analizar la data enviada.   
 
