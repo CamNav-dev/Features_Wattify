@@ -7,7 +7,8 @@ Feature: Método de Pago
     Scenario: Opciones de pago diversificadas
         Given que el ciudadano desea realizar el pago en Wattify
         When selecciona la opción de <pago>
-        Then se le presenta una variedad de <metodos de pago>, incluyendo tarjeta de credito, tarjeta de debito, efectivo o cualquier otro medio de pago que se encuentre disponible.
+        Then se le presenta una variedad de <metodos de pago>, incluyendo tarjeta de credito, 
+        tarjeta de debito, efectivo o cualquier otro medio de pago que se encuentre disponible.
 
     Examples: Datos de entrada
     | pago |
